@@ -10,5 +10,5 @@ let i = 0;
 
 while (i < 10) {
   i++;
-  console.log("I am inssie loop");
+  console.log(i);
 }

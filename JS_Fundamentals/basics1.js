@@ -18,7 +18,14 @@ console.log(d);
 
 console.log(!required);
 
+console.log(d);
 // let will not let you redeclare a variable but var will allow this.
+
+d = a + b;
+//reassigning is allowed.
+
+
+
 
 //there are comments
 /*

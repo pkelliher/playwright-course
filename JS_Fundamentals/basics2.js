@@ -5,3 +5,10 @@ if (!flag) {
 } else {
   console.log("condition not satisfied");
 }
+
+let i = 0;
+
+while (i < 10) {
+  i++;
+  console.log("I am inssie loop");
+}

@@ -13,6 +13,13 @@ console.log(typeof c);
 let required = true;
 console.log(typeof required);
 
+let d = a + b;
+console.log(d);
+
+console.log(!required);
+
+// let will not let you redeclare a variable but var will allow this.
+
 //there are comments
 /*
 asdfasdf

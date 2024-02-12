@@ -12,3 +12,14 @@ marks.pop();
 console.log(marks);
 marks.unshift(12);
 console.log(marks);
+console.log(marks.indexOf(100));
+console.log(marks);
+console.log(marks.includes(120));
+submarks = marks.slice(2, 5);
+console.log(submarks);
+var sum = 0;
+for (let i = 0; i < marks.length; i++) {
+  // console.log(marks[i]);
+  sum = sum + marks[i];
+}
+console.log(sum);

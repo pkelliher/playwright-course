@@ -45,8 +45,21 @@ console.log(mappedArray);
 let totalVal = mappedArray.reduce((sum, val) => sum + val, 0);
 console.log(totalVal);
 
-var scores1 = [12,13,14,16]
+var scores1 = [12, 13, 14, 16];
 
-let sumValues = scores.filter(score => score % 2 == 0).map(score => score * 3).reduce((sum, val) => sum + val, 0);
+let sumValues = scores
+  .filter((score) => score % 2 == 0)
+  .map((score) => score * 3)
+  .reduce((sum, val) => sum + val, 0);
 console.log(sumValues);
 
+let fruits = ["banana", "apple", "mango", "orange"];
+fruits.sort();
+console.log(fruits);
+
+let numbers = [1, 100, 2, 25, 3, 10, 4, 5, 6];
+// numbers.sort(function (a, b) {
+//   return a - b;
+// });
+
+console.log(numbers.sort((a, b) => a - b));

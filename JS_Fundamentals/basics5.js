@@ -13,5 +13,9 @@ let date = "23";
 let nextDate = "27";
 let diff = parseInt(nextDate) - parseInt(date);
 console.log(diff);
-diff.toString()
+diff.toString();
 
+let newQuote = day + "is funday day";
+console.log(newQuote);
+let val = newQuote.indexOf("day", 5);
+console.log(val);

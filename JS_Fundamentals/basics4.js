@@ -13,3 +13,4 @@ console.log(sumOfIntegers(3, 4));
 //arrow function
 let sumOfNumbers = (c, d) => c + d;
 console.log(sumOfNumbers(3, 4));
+
